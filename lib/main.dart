@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
           Navigator.push(
-            context,
+            context
             MaterialPageRoute(
               builder: (_) => AddToDo(),
             ),
